@@ -4,8 +4,13 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+
+    "dev":"nodemon app.js",
+    "ndev":"node eventHandle.js"
   },
   "author": "rabin",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  }
 }
